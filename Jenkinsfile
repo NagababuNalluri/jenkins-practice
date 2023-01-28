@@ -3,11 +3,13 @@
  pipeline {
    agent {
      label 'workstation'
-    }
+   }
      stages {
        stage(variable) {
          steps {
-          pv ('raj')
+          script{
+          pv.call ('raj')
+          }
          }
        }
      }
