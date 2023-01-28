@@ -19,10 +19,10 @@ env.b=15
             echo "b=${b}"
           }
           script{
-            if(a<b) {
-             a++
-             println a
-            }
+             for(a<b) {
+                a++
+              println a
+             }
           }
          }
        }
