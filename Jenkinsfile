@@ -18,6 +18,10 @@ env.b=15
             println a
             println b
           }
+          script {
+          echo ${a}
+          echo ${b}
+          }
          }
        }
      }
