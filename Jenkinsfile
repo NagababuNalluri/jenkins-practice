@@ -19,8 +19,8 @@ env.b=15
             println b
           }
           script {
-          echo ${a}
-          echo ${b}
+          echo "${a}"
+          echo "${b}"
           }
          }
        }
