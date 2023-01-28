@@ -11,12 +11,12 @@ env.b=15
        stage(variable) {
          steps {
            script {
-            println value of "a"
-            println value of "b"
+            println a
+            println b
             }
           script {
-          echo "${a}"
-          echo "${b}"
+          echo "a=${a}"
+          echo "b=${b}"
           }
          }
        }
