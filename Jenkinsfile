@@ -2,6 +2,7 @@
 
 ci()
 pv.call "nalluri"
+pv.add 1,2
 
 //  pipeline {
 //    agent {
