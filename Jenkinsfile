@@ -8,8 +8,8 @@
        stage(variable) {
          steps {
           script{
-          pv.call (raj)
-          pv.add (1,2)
+          pv.call ('raj')
+          pv.add ('1,2')
           }
          }
        }
