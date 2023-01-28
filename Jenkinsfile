@@ -15,8 +15,8 @@ env.b=15
           pv.add(1,2)
           }
           script {
-            print '${a}'
-            print '${b}'
+            println a
+            println b
           }
          }
        }
