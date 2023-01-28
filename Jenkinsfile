@@ -1,7 +1,7 @@
 @Library('roboshop') _
 
 ci()
-pv.call(nalluri)
+pv()
 
 //  pipeline {
 //    agent {
