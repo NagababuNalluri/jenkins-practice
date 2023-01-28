@@ -1,3 +1,3 @@
 @Library('roboshop') _
 
-pv(nag)
+pv(name:nag)
