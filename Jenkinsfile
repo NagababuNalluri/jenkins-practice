@@ -1,3 +1,10 @@
 @Library('roboshop') _
 
-pv(name:nag)
+ pipeline {
+   agent any
+     stages {
+       stage(variable) {
+         steps {
+          pv ('raj')
+         }
+ }
