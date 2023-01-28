@@ -9,7 +9,7 @@
          steps {
           script{
           pv.call('raj')
-          pv.add('1,2')
+          pv.add(1,2)
           }
          }
        }
