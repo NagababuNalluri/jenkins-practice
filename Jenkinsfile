@@ -2,9 +2,6 @@
 
 env.a=10
 env.b=15
-pv.name raj
-pv.add 1,2
-
 
  pipeline {
    agent {
@@ -16,7 +13,7 @@ pv.add 1,2
            script {
             println a
             println b
-          }
+            }
           script {
           echo "${a}"
           echo "${b}"
