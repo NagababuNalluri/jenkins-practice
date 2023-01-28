@@ -15,8 +15,14 @@ env.b=15
             println b
             }
           script {
-          echo "a=${a}"
-          echo "b=${b}"
+            echo "a=${a}"
+            echo "b=${b}"
+          }
+          script{
+            if(a>b) {
+             i++
+             print a
+            }
           }
          }
        }
