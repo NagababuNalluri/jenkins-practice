@@ -1,21 +1,23 @@
 @Library('roboshop') _
 
-ci()
-pv.call nalluri
-pv.add 1,2
-
-//  pipeline {
-//    agent {
-//      label 'workstation'
-//    }
-//      stages {
-//        stage(variable) {
-//          steps {
-//           script{
-//           pv.call('raj')
-//           pv.add(1,2)
-//           }
-//          }
-//        }
-//      }
-//  }
+test.abc
+//
+// ci()
+// pv.call nalluri; add 1,2
+// pv.add 1,2
+//
+// //  pipeline {
+// //    agent {
+// //      label 'workstation'
+// //    }
+// //      stages {
+// //        stage(variable) {
+// //          steps {
+// //           script{
+// //           pv.call('raj')
+// //           pv.add(1,2)
+// //           }
+// //          }
+// //        }
+// //      }
+// //  }
