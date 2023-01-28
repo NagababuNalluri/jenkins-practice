@@ -2,7 +2,9 @@
 
 env.a=10
 env.b=15
-env.name=raj
+pv.name raj
+pv.add 1,2
+
 
  pipeline {
    agent {
@@ -11,11 +13,7 @@ env.name=raj
      stages {
        stage(variable) {
          steps {
-          script {
-          pv.call()
-          pv.add()
-          }
-          script {
+           script {
             println a
             println b
           }
