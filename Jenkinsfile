@@ -1,6 +1,6 @@
 @Library('roboshop') _
 
-test.abc
+test(abc)
 //
 // ci()
 // pv.call nalluri; add 1,2
