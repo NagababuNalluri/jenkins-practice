@@ -21,7 +21,7 @@ env.b=15
           script{
             if(a<b) {
              i++
-             print a
+             println a
             }
           }
          }
