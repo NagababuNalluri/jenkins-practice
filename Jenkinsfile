@@ -19,7 +19,7 @@ env.b=15
             echo "b=${b}"
           }
           script{
-            if(a>b) {
+            if(a<b) {
              i++
              print a
             }
