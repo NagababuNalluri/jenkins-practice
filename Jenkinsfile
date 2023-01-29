@@ -11,19 +11,9 @@ env.b=15
        stage(variable) {
          steps {
            script {
-            println a
-            println b
-            }
-          script {
-            echo "a=${a}"
-            echo "b=${b}"
-          }
-          script{
-             for(a<b) {
-                a++
-              println a
-             }
-          }
+                      echo "a=${a}"
+                      echo "b=${b}"
+           }
          }
        }
      }
