@@ -1,3 +1,3 @@
 @Library('roboshop') _
 
-test.nag()
+test.nag hello
