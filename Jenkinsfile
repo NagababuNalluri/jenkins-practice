@@ -2,4 +2,4 @@
 
 ci.call()
 test.nalluri()
-test.hema ()
+test.hema 'hello world'
